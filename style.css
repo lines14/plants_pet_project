@@ -30,10 +30,24 @@ body {
     height: 21.04px;
 }
 .logo-pic {
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 20px;
     height: 20px;
-    margin-bottom: 7px;
+}
+.logo-1 {
+    display: block;
+    width: 9.92px;
+    height: 17.28px;
+    margin-top: -3px;
+}
+.logo-2 {
+    display: block;
+    width: 19px;
+    height: 20px;
+    margin-left: -9px;
+    margin-top: -7px;
 }
 .logo-name {
     font-family: 'Inika';
@@ -42,7 +56,6 @@ body {
     font-size: 16px;
     line-height: 21px;
     color: #000000;
-    margin: 0;
 }
 .nav {
     display: flex;
@@ -57,7 +70,6 @@ body {
     align-items: center;
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 .nav-item {
     font-family: 'Inika';
