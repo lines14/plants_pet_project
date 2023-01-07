@@ -37,21 +37,24 @@ body {
     height: 20px;
 }
 .logo-1 {
+    display: block;
     width: 9.92px;
     height: 17.28px;
-    margin-top: -2px;
+    margin-top: -3px;
 }
 .logo-2 {
+    display: block;
     width: 19px;
     height: 20px;
     margin-left: -9px;
-    margin-top: -6px;
+    margin-top: -7px;
 }
 .logo-name {
-    font-family: 'Inika';
+    font-family: 'Inika', 'serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 21px;
     color: #000000;
 }
 .nav {
@@ -69,10 +72,11 @@ body {
     padding: 0;
 }
 .nav-item {
-    font-family: 'Inika';
+    font-family: 'Inika', 'serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 50px;
 }
 .nav-item span {
     color: #E06733;
@@ -91,4 +95,51 @@ body {
     align-items: center;
     width: 1222px;
     height: 407.36px;
+}
+.leafs {
+    width: 448.8px;
+    height: 407.36px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 549px;
+    height: 340px;
+}
+.intro-h1 {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.intro-h1 span {
+    color: #499A18;
+}
+.intro-p {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+.intro-button {
+    margin: 0;
+    box-sizing: border-box;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
 }
