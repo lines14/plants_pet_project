@@ -5,17 +5,90 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     color: #010201;
-    background-color: #f5f5f5;
+    background-color: #F5F5F5;
 }
 .header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
     height: 134px;
-    background: #edf2ec;
+    background: #EDF2EC;
 }
 .navbar {
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 1220px;
     height: 50px;
-    background: #edf2ec;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 79.17px;
+    height: 21.04px;
+}
+.logo-pic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+.logo-1 {
+    width: 9.92px;
+    height: 17.28px;
+    margin-top: -2px;
+}
+.logo-2 {
+    width: 19px;
+    height: 20px;
+    margin-left: -9px;
+    margin-top: -6px;
+}
+.logo-name {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    width: 452px;
+    height: 50px;
+}
+.nav-list {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.nav-item {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-item span {
+    color: #E06733;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 532px;
+    background: #EDF2EC;
+}
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1222px;
+    height: 407.36px;
 }
