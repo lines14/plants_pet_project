@@ -290,3 +290,19 @@ body {
     color: #717171;
     margin: 0;
 }
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 560px;
+    background: #FFFFFF;
+}
+.prices-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1222px;
+    height: 405px;
+    margin-bottom: 37.5px;
+}
