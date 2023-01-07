@@ -411,7 +411,47 @@ body {
     background: #EDF2EC;
 }
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1440px;
     height: 130px;
     background: #FFFFFF;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1222px;
+    height: 50px;
+}
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-block:last-child {
+    flex-direction: row-reverse;
+    width: 188px;
+    height: 50px;
+}
+.links {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0 20px 0 0;
+}
+.links:last-child {
+    margin: 0;
+}
+.rss {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
 }
