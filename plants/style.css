@@ -7,3 +7,15 @@ body {
     color: #010201;
     background-color: #f5f5f5;
 }
+.header {
+    display: flex;
+    height: 134px;
+    background: #edf2ec;
+}
+.navbar {
+    margin: auto;
+    align-items: center;
+    width: 1220px;
+    height: 50px;
+    background: #edf2ec;
+}
