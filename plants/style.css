@@ -367,14 +367,14 @@ body {
     align-items: flex-end;
     height: 405px;
 }
-.contacts {
+.contacts-us-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
     height: 191.01px;
 }
-.contacts-p {
+.contacts-us-wrapper-p {
     width: 452px;
     font-family: 'Inter';
     font-style: normal;
@@ -385,10 +385,10 @@ body {
     color: #000000;
     margin: 0;
 }
-.contacts-p span {
+.contacts-us-wrapper-p span {
     color: #499A18;
 }
-.contacts-button {
+.contacts-us-wrapper-button {
     width: 162px;
     height: 50px;
     border: 1px solid #E06733;
@@ -404,4 +404,14 @@ body {
 }
 .prices-img {
     display: block;
+}
+.contacts {
+    width: 1440px;
+    height: 550px;
+    background: #EDF2EC;
+}
+.footer {
+    width: 1440px;
+    height: 130px;
+    background: #FFFFFF;
 }
