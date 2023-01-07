@@ -50,7 +50,7 @@ body {
     margin-top: -7px;
 }
 .logo-name {
-    font-family: 'Inika', 'serif';
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -72,7 +72,7 @@ body {
     padding: 0;
 }
 .nav-item {
-    font-family: 'Inika', 'serif';
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -97,8 +97,7 @@ body {
     height: 407.36px;
 }
 .leafs {
-    width: 448.8px;
-    height: 407.36px;
+    display: block;
 }
 .intro {
     display: flex;
