@@ -4,7 +4,6 @@ html {
 body {
     max-width: 1440px;
     margin: 0 auto;
-    color: #010201;
     background-color: #F5F5F5;
 }
 .header {
@@ -66,9 +65,18 @@ body {
     font-size: 16px;
     line-height: 50px;
     color: #010201;
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
 }
-.nav-item .nav-link span {
+.nav-item .nav-link .home {
+    font-weight: 700;
     color: #E06733;
+}
+.nav-item .nav-link:hover {
+    border: 2px solid #E06733;
+    border-radius: 10px;
 }
 .welcome {
     display: flex;
@@ -516,6 +524,7 @@ body {
 }
 .footer-list {
     width: 188px;
+    height: 50px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -525,14 +534,32 @@ body {
     margin: 0;
 }
 .footer-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 32px;
     height: 32px;
+}
+.footer-list-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.footer-pic {
+    display: block;
 }
 .nav-link {
     text-decoration: none;
 }
 .nav-link:hover {
     color: #E06733;
+}
+.nav-link:active {
+    color: #499A18;
+}
+.button {
+    transition: 0.3s;
 }
 .button:hover {
     color:#FFFFFF;
