@@ -18,21 +18,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1220px;
-    height: 50px;
+    width: 1250px;
+    height: 60px;
 }
 .logo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
-    width: 79.17px;
+    width: 82.5px;
     height: 21.04px;
 }
 .logo-pic {
     display: block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 7px;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 10px;
 }
 .logo-name {
     font-family: 'Inika';
@@ -41,12 +41,13 @@ body {
     font-size: 16px;
     line-height: 21px;
     color: #000000;
-    margin: 0;
+    margin: 0 0 1px 0;
 }
 .nav {
+    margin-right: 7.5px;
+    margin-top: 1px;
     display: flex;
     align-items: center;
-    width: 452px;
     height: 50px;
 }
 .nav-list {
@@ -57,6 +58,13 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 465.3px;
+}
+.nav-item:nth-child(5) {
+    margin-right: 0.5px;
+}
+.nav-item:nth-child(3) {
+    margin-left: 0.5px;
 }
 .nav-item .nav-link {
     font-family: 'Inika';
@@ -90,21 +98,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1222px;
-    height: 407.36px;
+    width: 1240px;
 }
 .leafs {
     display: block;
+    margin: 0 5px 2px 0;
 }
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 549px;
-    height: 340px;
+    height: 350px;
+    margin: 0 8.5px 0 0;
 }
 .intro-h1 {
-    margin: 0;
+    margin: 7px 0 0 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -116,7 +125,7 @@ body {
     color: #499A18;
 }
 .intro-p {
-    margin: 0;
+    margin: 0 0 3px 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -125,7 +134,7 @@ body {
     color: #636060;
 }
 .intro-button {
-    margin: 0;
+    margin: 0 0 3px 0;
     box-sizing: border-box;
     width: 158px;
     height: 44px;
