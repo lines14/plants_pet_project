@@ -169,11 +169,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 605px;
-    height: 350px;
+    height: 360px;
+    margin-top: 5px;
+    margin-left: 0.5px;
 }
 .intro-1-h2 {
     width: 463px;
-    margin: 0;
+    margin: 5px 0 0 0;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -185,7 +187,7 @@ body {
     color: #E06733;
 }
 .intro-1-p {
-    margin: 0;
+    margin: 0 0 3px 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -195,6 +197,7 @@ body {
 }
 .houseplant {
     display: block;
+    margin-bottom: 1px;
 }
 .service {
     display: flex;
@@ -212,7 +215,7 @@ body {
     width: 1222px;
     height: 1139px;
     background: #EDF2EC;
-    margin-bottom: 40px;
+    margin-bottom: 68px;
 }
 .services-content {
     display: flex;
@@ -229,6 +232,7 @@ body {
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
+    margin: 0 0 3px 0.5px;
 }
 .buttons-row {
     display: flex;
@@ -252,6 +256,14 @@ body {
     color: #E06733;
     background: #EDF2EC;
 }
+.service-button-span-1 {
+    display: inline-block;
+    margin-right: 3px;
+}
+.service-button-span-2 {
+    display: inline-block;
+    margin-right: 4px;
+}
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -259,6 +271,7 @@ body {
     align-content: space-between;
     width: 1222px;
     height: 955px;
+    margin-bottom: 7px;
 }
 .service-item {
     display: flex;
@@ -270,13 +283,16 @@ body {
 }
 .service-img {
     display: block;
+    width: 330px;
+    height: 350px;
 }
 .service-item-description {
+    width: 328px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-    height: 100px;
+    height: 98px;
     border: 1px solid #E3E1D5;
     border-radius: 0px 0px 20px 20px;
 }
@@ -287,7 +303,22 @@ body {
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
-    margin: 10px 0;
+    margin: 9px 0 10px 3px;
+}
+.chld-1 {
+    margin-right: 3px;
+}
+.chld-3 {
+    margin-right: 6px;
+}
+.chld-4 {
+    margin-right: 2px;
+}
+.chld-5 {
+    margin-right: 2px;
+}
+.chld-6 {
+    margin-right: 2px;
 }
 .service-item-p {
     font-family: 'Inter';
@@ -296,7 +327,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #717171;
-    margin: 0;
+    margin: 4px 0.5px 0 0;
 }
 .prices {
     display: flex;
