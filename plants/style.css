@@ -563,11 +563,14 @@ body {
     font-size: 20px;
     line-height: 50px;
     color: #000000;
-    margin: 0 20px 0 0;
+    margin: 0 20.5px 0 0;
 }
 .watermarks .nav-link {
     display: block;
     margin: 0;
+}
+.watermark-1 {
+    padding-left: 0.5px;
 }
 .rss {
     display: block;
@@ -577,7 +580,7 @@ body {
     font-size: 20px;
     line-height: 50px;
     color: #000000;
-    margin: 0;
+    margin: 0 2px 0 0;
 }
 .footer-list {
     width: 188px;
@@ -605,6 +608,9 @@ body {
 }
 .footer-pic {
     display: block;
+}
+.facebook {
+    margin-left: 1px;
 }
 .nav-link {
     text-decoration: none;
