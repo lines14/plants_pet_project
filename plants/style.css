@@ -1,12 +1,6 @@
 html {
     scroll-behavior: smooth;
 }
-a {
-    text-decoration:none;
-}
-a:active {
-    color: #E06733;
-}
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -65,14 +59,15 @@ body {
     padding: 0;
     margin: 0;
 }
-.nav-item {
+.nav-item .nav-link {
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
+    color: #010201;
 }
-.nav-item span {
+.nav-item .nav-link span {
     color: #E06733;
 }
 .welcome {
@@ -496,7 +491,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.links {
+.watermarks {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -505,7 +500,7 @@ body {
     color: #000000;
     margin: 0 20px 0 0;
 }
-.links:last-child {
+.watermarks .nav-link {
     display: block;
     margin: 0;
 }
@@ -533,7 +528,13 @@ body {
     width: 32px;
     height: 32px;
 }
-.button-hover:hover {
+.nav-link {
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #E06733;
+}
+.button:hover {
     color:#FFFFFF;
     background: #E06733;
 }
