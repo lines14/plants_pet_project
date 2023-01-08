@@ -334,7 +334,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 1440px;
-    height: 560px;
+    height: 558px;
     background: #FFFFFF;
 }
 .prices-section {
@@ -343,7 +343,7 @@ body {
     align-items: center;
     width: 1222px;
     height: 405px;
-    margin-bottom: 37.5px;
+    margin-bottom: 80px;
 }
 .prices-variants {
     display: flex;
@@ -352,6 +352,7 @@ body {
     align-items: flex-start;
     width: 332px;
     height: 391.01px;
+    margin-bottom: 11px;
 }
 .prices-variants-h2 {
     font-family: 'Inter';
@@ -360,15 +361,15 @@ body {
     font-size: 40px;
     line-height: 48px;
     color: #000000;
-    margin: 0;
+    margin: 1px 0 0 0.5px;
 }
 .prices-variants-list {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 332px;
-    height: 282.01px;
+    width: 330px;
+    height: 280px;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
 }
@@ -382,6 +383,12 @@ body {
     border-color: transparent;
     border-radius: 20px;
 }
+.prices-variants-item-2 {
+    margin-top: -1px;
+}
+.prices-variants-item-3 {
+    margin-top: -1px;
+}
 .prices-variants-item-p {
     font-family: 'Inter';
     font-style: normal;
@@ -389,7 +396,7 @@ body {
     font-size: 20px;
     line-height: 20px;
     color: #000000;
-    margin: 0 0 0 40px;
+    margin: 2px 0 0 40.5px;
 }
 .prices-variants-item-button {
     display: flex;
@@ -414,7 +421,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    height: 405px;
+    height: 425px;
 }
 .contacts-us-wrapper {
     display: flex;
@@ -422,6 +429,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     height: 191.01px;
+    margin-top: 11px;
 }
 .contacts-us-wrapper-p {
     width: 452px;
@@ -432,7 +440,7 @@ body {
     line-height: 50px;
     text-align: right;
     color: #000000;
-    margin: 0;
+    margin: 1px -0.5px 0 0;
 }
 .contacts-us-wrapper-p span {
     color: #499A18;
@@ -451,8 +459,16 @@ body {
     color: #E06733;
     background: #FFFFFF;
 }
+.contact-us-button-span {
+    display: inline-block;
+    margin-right: 3px;
+}
 .prices-img {
+    margin-right: -9px;
+    margin-bottom: 2px;
     display: block;
+    width: 166px;
+    height: 187px;
 }
 .contacts {
     display: flex;
@@ -477,7 +493,7 @@ body {
     line-height: 52px;
     color: #499A18;
     align-self: flex-start;
-    margin: 7px 0 0 0;
+    margin: 7px 0 0 45px;
 }
 .contacts-chooser {
     display: flex;
@@ -496,7 +512,8 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
     align-self: flex-start;
-    margin-top: 148px;
+    margin-top: 95px;
+    margin-right: -0.5px;
 }
 .contacts-chooser-p {
     margin: 0 0 0 20px;
