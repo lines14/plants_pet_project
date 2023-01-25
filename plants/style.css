@@ -866,6 +866,7 @@ footer .background {
     }
     .footer {
         align-items: flex-start;
+        margin-bottom: 51px;
     }
     .content {
         margin-top: 20px;
@@ -1234,6 +1235,7 @@ footer .background {
     }
     .footer {
         align-items: flex-start;
+        margin-bottom: 16px;
     }
     .content {
         margin-top: 9px;
