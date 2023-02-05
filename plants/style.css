@@ -416,7 +416,6 @@ footer .background {
     align-items: center;
     width: 330px;
     min-height: 280px;
-    /* border: 1px solid #E3E1D5; */
     border-radius: 20px;
     padding: 0;
     transition: all 1s;
@@ -466,15 +465,6 @@ footer .background {
     align-items: center;
     transition: all 1s;
 }
-
-
-
-
-
-
-
-
-
 .prices-variants-item-p {
     font-family: 'Inter';
     font-style: normal;
@@ -490,14 +480,6 @@ footer .background {
 .prices-variants-item-p-3 {
     margin: 2px 0 0 0;
 }
-
-
-
-
-
-
-
-
 .prices-variants-item-button {
     display: flex;
     justify-content: center;
@@ -512,12 +494,6 @@ footer .background {
 .prices-variants-wrapper .prices-variants-list .prices-variants-item.open .prices-variants-item-button {
     background-color: #636060;
 }
-
-
-
-
-
-
 .prices-variants-item-arrow {
     display: flex;
     justify-content: center;
@@ -535,14 +511,6 @@ footer .background {
     display: flex;
     height: 3px;
 }
-
-
-
-
-
-
-
-
 .prices-container-content {
     display: none;
     width: 170px;
@@ -1209,7 +1177,6 @@ footer .background {
     .footer-block-3 {
         margin-top: 13px;
     }
-
 }
 
 
@@ -1579,7 +1546,6 @@ footer .background {
     .footer-block-3 {
         margin-top: 0;
     }
-
 }
 
 
@@ -2009,10 +1975,6 @@ footer .background {
         color: #000000;
         margin: 1px 0 0 0.5px;
     }
-
-
-
-
     .prices-variants-wrapper {
         border: 1px solid #E3E1D5;
         border-radius: 20px;
@@ -2022,15 +1984,6 @@ footer .background {
     .prices-variants-wrapper.open {
         height: auto;
     }
-    /* .prices-variants-wrapper .prices-variants-list .prices-variants-item-button.open {
-        height: auto;
-        background-color: #D6E7D2;
-    } */
-
-
-
-
-
     .prices-variants-list {
         display: flex;
         flex-direction: column;
@@ -2041,14 +1994,6 @@ footer .background {
         margin: 0;
         transition: all 1s;
     }
-    /* .prices-variants-list.open {
-        height: auto;
-    } */
-
-
-
-
-
     .prices-variants-item {
         display: flex;
         flex-direction: column;
@@ -2085,15 +2030,6 @@ footer .background {
         height: auto;
         background-color: #D6E7D2;
     }
-
-
-
-
-
-
-
-
-
     .prices-wrapper {
         width: 170px;
         height: 50px;
@@ -2105,15 +2041,6 @@ footer .background {
         flex-shrink: 0;
         transition: all 1s;
     }
-
-
-
-
-
-
-
-
-
     .prices-variants-item-p {
         font-family: 'Inter';
         font-style: normal;
@@ -2129,14 +2056,6 @@ footer .background {
     .prices-variants-item-p-3 {
         margin: 2px 0 0 0;
     }
-
-
-
-
-
-
-
-
     .prices-variants-item-button {
         display: flex;
         justify-content: center;
@@ -2148,19 +2067,12 @@ footer .background {
         border-color: transparent;
         border-radius: 50px;
     }
-    
     .prices-variants-wrapper .prices-variants-list .prices-variants-item {
         transition: all 1s;
     }
     .prices-variants-wrapper .prices-variants-list .prices-variants-item.open .prices-variants-item-button {
         background-color: #AEA1A1;
     }
-
-
-
-
-
-
     .prices-variants-item-arrow {
         display: flex;
         justify-content: center;
@@ -2178,14 +2090,6 @@ footer .background {
         display: flex;
         height: 3px;
     }
-
-
-
-
-
-
-
-
     .prices-container-content {
         display: none;
         width: 163px;
@@ -2240,12 +2144,9 @@ footer .background {
         text-decoration: none;
         color: #717171;
     }
-
-
     .prices-variants-wrapper .prices-variants-list .prices-variants-item .prices-container-content {
         transition: all 1s;
     }
-
     .prices-variants-wrapper .prices-variants-list .prices-variants-item.open .prices-container-content {
         height: 108px;
         opacity: 1;
@@ -2253,15 +2154,6 @@ footer .background {
         flex-direction: column;
         justify-content: center;
     }
-
-
-
-
-
-
-
-
-
     .contact-us {
         display: flex;
         flex-direction: column;
@@ -2575,48 +2467,6 @@ footer .background {
         background-color: #AEA1A1;
         margin-right: 34px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .footer {
         margin: 0 auto;
         display: flex;

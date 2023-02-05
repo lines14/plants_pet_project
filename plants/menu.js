@@ -139,31 +139,6 @@ function findParent(target, parentClass) {
    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const selectorElem = document.querySelector('.contacts-chooser-button');
 const contactWrapperList = document.querySelector('.contact-wrapper-list');
 const containerCitySelector = document.querySelector('.contacts-chooser');
