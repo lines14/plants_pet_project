@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: plants
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: plants
+  template:
+    metadata:
+      labels:
+        app: plants
+    spec:
+      containers:
+      - name: plants
+        image: lines14/plants_pet_project:latest
+        ports:
+        - name: plants-port
+          containerPort: 3002
+      imagePullSecrets:
+      - name: docker-credentials
